@@ -1,8 +1,9 @@
 # This file is importing urls from urls.py from core folder.
 """This is going to show urls/views imported from core/urls.py 
 """
-from django.urls import path
+from django.urls import path, include
 from . import views
+
 urlpatterns = [
-   path("home", views.home)
+   path("home/", views.home),
 ]
