@@ -4,6 +4,7 @@
 from django.urls import path, include
 from . import views
 
+# All these are urls posted.
 urlpatterns = [
    path("home/", views.home),
 ]
